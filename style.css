@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(170, 27, 146) , yellow);
+
+    
+}
+
+h1{
+    margin: 30px;
+}
+.button {
+    width: 70px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid rgb(31, 186, 197);
+    border-radius: 9px;
+    cursor: pointer;
+    background:linear-gradient(rgb(0, 0, 0), rgb(246, 247, 245));
+
+}
+.button:hover{
+   color: rgb(117, 136, 125);
+   background:rgb(109, 214, 155);
+   transition: 0.6s;
+   transform: translateY(-3px);
+   
+}
+
+
+
+
+.row {
+    margin: 8px 0;
+
+}
+
+.row input {
+    width: 290px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
